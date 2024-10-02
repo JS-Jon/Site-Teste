@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* Começo do Site */
+
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 600px;
+    height: 43px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid rgba(217, 217, 217, 0.425);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.25);
+    &:focus{
+      border: 1px solid rgba(217, 217, 217, 0.836);
+      transition: 0.35s ease;
+      color: #000000;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }
+      &:-o-placeholder {
+        transition: opacity 0.45s ease;
+         opacity: 0; 
+      } 
+
+     }
+
+   }
+  
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 22.5px;
+    height: 22.5px;
+    top: -35px;
+    right: -100px;
+    margin-top: 3px;
+
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    padding: 24px 85px 0px 85px;
+    border-bottom: solid 2px #d9d9d9;
+    height: 91px;
+
+  }
+
+  .container .logo img {
+    width: 161px;
+    height: 44px;
+
+  }
+
+  .container button{
+    border: none;
+    width: 124px;
+    height: 44px;
+    margin-left: 92px;
+    &:hover{
+        background-color: slategray;
+        color: #FFFF;
+        transition: 0.3s;
+    }
+
+  }
+
+  .container .botao-destaque {
+    background-color: #3B3DFB;
+    color: #FFFF;
+    border-radius: 5px;
+    margin-left: 36px;
+    &:hover{
+        background-color: #7d86ff;
+        color: black;
+    }
+
+  }
+
+  .container #negrito {
+    font-weight: 700;
+
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------------------- */
+
+  /* Banner com as logos dos cursos */
+
+  .linguagens {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+    border-bottom: solid 2px #d9d9d9;
+    padding: 26.25px 85px;
+    border-left: solid 2px #d9d9d9;
+    
+  }
+
+  .linguagens #borda {
+    border-left: solid 2px #d9d9d9;
+    padding-left: 85px;
+
+
+  }
+
+  #titulo {
+    align-self: center;
+    padding-right: 0px;
+
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------------------ */
+  
+  /* 1º Parte dos cursos */
+
+  .meio {
+    padding: 24px 85px 0px 85px;
+    
+  }
+
+  .cursos1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 44px;
+
+  }
+
+  .cursos1 img {
+    margin-bottom: 5px;
+
+  }
+  .cursos1 #tela {
+    width: 300px;
+    height: 201px;
+
+  }
+  .cursos1 div img {
+    margin-top: 10px;
+
+  }
+
+  .cursos1 .java-ninja {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 26%;
+    
+  }
+  .cursos1 .java-ninja div {
+    max-width: 180px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .cursos1 .java-ninja div img {
+    margin-top: 10px;
+  }
+  .cursos1 .java-ninja #tela {
+    margin-bottom: 10px;
+    
+  }
+
+  .cursos1 .desvendando-java {
+    max-width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .cursos1 .desvendando-java div {
+    max-width: 180px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+
+  .cursos1 .java-power {
+    max-width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .cursos1 .java-power div {
+    max-width: 180px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+  }
+  
+  /* ----------------------------------------------------------------------------------------------------------------------- */
+
+  /* 2º parte dos cursos */
+
+  .cursos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 173px;
+
+  }
+  .cursos2 img {
+    margin-bottom: 10px;
+  }
+  .cursos2 div img {
+    margin-top: 10px;
+  }
+  .cursos2 #tela {
+    width: 300px;
+    height: 201px;
+
+  }
+
+  .cursos2 .acelere-java {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .cursos2 .acelere-java div {
+    max-width: 180px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .cursos2 .acelere-java div img {
+    margin-top: 10px;
+  }
+  .cursos2 .acelere-java img {
+    margin-bottom: 10px;
+  }
+
+  .cursos2 .java-dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: -125px;
+    
+  }
+  .cursos2 .java-dev div {
+    max-width: 180px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+  }
+  .cursos2 .java-dev div img {
+    margin-top: 10px;
+  }
+  .cursos2 .java-dev img {
+    margin-bottom: 10px;
+  }
+
+  .cursos2 .java-expert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 185px;
+    
+  }
+  .cursos2 .java-expert div {
+    max-width: 180px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+  }
+  .cursos2 .java-expert div img {
+    margin-top: 10px;
+  }
+  .cursos2 .java-expert img {
+    margin-bottom: 10px;
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------------------- */
+  
+  /*footer  */
+
+  .footer{
+    display: flex;
+    justify-content:space-between;
+    background-color: #3B3DFB;
+    padding: 33px 85px 33px 85px;
+    width: auto;
+    height: 206px;
+    color: #FFFFFF;
+  }
+  
+  
+
+  .footer .contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+
+
+  .footer .redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+
+
+  .footer .redes-sociais div img {
+    max-width: 18px;
+    margin-right: 5px;
+  }
+
+  /* Fim */
+
+  
+
+
+
+
+
+
+
+  
